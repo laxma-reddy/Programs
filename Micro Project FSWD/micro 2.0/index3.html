@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <?php include 'cart.php'; ?>
+
+</head>
+<body>
+    <?php include 'cart.php'; ?>
+
+  <header>
+    <h1>Shopping Cart</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Products</h2>
+      <ul>
+        <li>
+          <h3>Product A</h3>
+          <p>$10.00</p>
+          <button class="add-to-cart" data-name="Product A" data-price="10.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Product B</h3>
+          <p>$20.00</p>
+          <button class="add-to-cart" data-name="Product B" data-price="20.00">Add to Cart</button>
+        </li>
+        <li>
+          <h3>Product C</h3>
+          <p>$30.00</p>
+          <button class="add-to-cart" data-name="Product C" data-price="30.00">Add to Cart</button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total-price">0.00</span></p>
+      <button id="checkout">Checkout</button>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script3.js"></script>
+</body>
+</html>

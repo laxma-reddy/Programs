@@ -1,0 +1,83 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  section {
+    width: 45%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  li button {
+    float: right;
+  }
+  
+  li h3 {
+    margin-top: 0;
+  }
+  
+  li p {
+    font-weight: bold;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #cart-items li button {
+    float: right;
+  }
+  
+  #cart-items li input {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form {
+    width: 50%;
+    margin: 20px auto;
+  }
+  
